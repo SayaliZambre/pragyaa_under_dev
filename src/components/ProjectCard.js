@@ -12,4 +12,4 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
       </div>
     </Col>
   )
-}
+};
