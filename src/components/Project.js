@@ -1,11 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import {ProjectCard } from './ProjectCard';
-import projImg1 from "../assets/img/chatapp.png";
-import projImg2 from "../assets/img/quiz.png";
-import projImg3 from "../assets/img/music1.png";
-import projImg4 from "../assets/img/ide.jpeg";
-import projImg5 from "../assets/img/disscusify.png";
-import projImg6 from "../assets/img/ecoomerce.png";
+// import projImg1 from "../assets/img/chatapp.png";
+// import projImg2 from "../assets/img/quiz.png";
+// import projImg3 from "../assets/img/music1.png";
+// import projImg4 from "../assets/img/ide.jpeg";
+// import projImg5 from "../assets/img/disscusify.png";
+import projImg1 from "../assets/img/img/pragyaa_logo.png";
 // import projImg5 from "../assets/img/disscusify.png";
 // import projImg5 from "../assets/img/disscusify.png";
 // import projImg5 from "../assets/img/disscusify.png";
@@ -19,36 +19,41 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Chat-app ",
-      github:"https://github.com/SayaliZambre/chat-app",
-      description: "https://github.com/SayaliZambre/chat-app  A sleek and intuitive chat app that facilitates seamless communication with friends and colleagues. Enjoy real-time for a personalized chatting experience",
+      title: "Comming Soon ",
+      // github:"https://github.com/SayaliZambre/chat-app",
+      // description: "https://github.com/SayaliZambre/chat-app  A sleek and intuitive chat app that facilitates seamless communication with friends and colleagues. Enjoy real-time for a personalized chatting experience",
       imgUrl: projImg1,
     },
     {
-      title: "Quiz-app",
-      description: "https://github.com/SayaliZambre/quiz1 Engage and challenge yourself with our interactive quiz application. Test your knowledge, learn new facts, and have fun with a diverse range of quizzes.",
-      imgUrl: projImg2,
+      title: "Comming Soon ",
+      // github:"https://github.com/SayaliZambre/chat-app",
+      // description: "https://github.com/SayaliZambre/chat-app  A sleek and intuitive chat app that facilitates seamless communication with friends and colleagues. Enjoy real-time for a personalized chatting experience",
+      imgUrl: projImg1,
     },
     {
-      title: "EccomerceAI",
-      description: "https://github.com/SayaliZambre/EcommerceAI Revolutionize your shopping experience with our platform, seamlessly blending the power of artificial intelligence",
-      imgUrl: projImg6,
+      title: "Comming Soon ",
+      // github:"https://github.com/SayaliZambre/chat-app",
+      // description: "https://github.com/SayaliZambre/chat-app  A sleek and intuitive chat app that facilitates seamless communication with friends and colleagues. Enjoy real-time for a personalized chatting experience",
+      imgUrl: projImg1,
     },
     {
-      title: "Music",
-      description: "https://github.com/SayaliZambre/music Immerse yourself in a world of melodies with enjoy your favorite tunes anytime.",
-      imgUrl: projImg3,
+      title: "Comming Soon ",
+      // github:"https://github.com/SayaliZambre/chat-app",
+      // description: "https://github.com/SayaliZambre/chat-app  A sleek and intuitive chat app that facilitates seamless communication with friends and colleagues. Enjoy real-time for a personalized chatting experience",
+      imgUrl: projImg1,
     },
     {
-      title: "Ide",
-      description: "https://github.com/SayaliZambre/ide Your creative hub for coding",
-      imgUrl: projImg4,
+      title: "Comming Soon ",
+      // github:"https://github.com/SayaliZambre/chat-app",
+      // description: "https://github.com/SayaliZambre/chat-app  A sleek and intuitive chat app that facilitates seamless communication with friends and colleagues. Enjoy real-time for a personalized chatting experience",
+      imgUrl: projImg1,
     },
    
     {
-      title: "Discussify",
-      description: "https://github.com/SayaliZambre/Discussify Elevate conversations with our platform that fosters meaningful discussions",
-      imgUrl: projImg5,
+      title: "Comming Soon ",
+      // github:"https://github.com/SayaliZambre/chat-app",
+      // description: "https://github.com/SayaliZambre/chat-app  A sleek and intuitive chat app that facilitates seamless communication with friends and colleagues. Enjoy real-time for a personalized chatting experience",
+      imgUrl: projImg1,
     },
   
   ];

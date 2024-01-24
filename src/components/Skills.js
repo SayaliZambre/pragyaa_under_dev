@@ -45,59 +45,59 @@ export const Skills = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <h2>SPONSORS</h2>
+                        {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p> */}
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                         <div className="item">
-                                <img src={meter7} alt="Image" />
-                                <h5>Blockchain</h5>
+                                <img src={meter12} alt="Image" />
+                                <h5>Comapany</h5>
                             </div>
                           
                             <div className="item">
-                                <img src={meter11} alt="Image" />
-                                <h5>Reactjs</h5>
+                                <img src={meter12} alt="Image" />
+                                <h5>Comapany</h5>
                             </div>
                             <div className="item">
                                 <img src={meter12} alt="Image" />
-                                <h5>c</h5>
+                                <h5>Comapany</h5>
                                 </div>
                                
                             <div className="item">
-                                <img src={meter8} alt="Image" />
-                                <h5>c++</h5>
+                                <img src={meter12} alt="Image" />
+                                <h5>Comapany</h5>
                             </div>
                             <div className="item">
-                                <img src={meter6} alt="Image" />
-                                <h5>Python</h5>
+                                <img src={meter12} alt="Image" />
+                                <h5>Comapany</h5>
                             </div>
                             <div className="item">
-                                <img src={meter5} alt="Image" />
-                                <h5>solidity</h5>
+                                <img src={meter12} alt="Image" />
+                                <h5>Comapany</h5>
                             </div>
                             <div className="item">
-                                <img src={meter10} alt="Image" />
-                                <h5>Github</h5>
+                                <img src={meter12} alt="Image" />
+                                <h5>Comapany</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Html</h5>
+                                <img src={meter12} alt="Image" />
+                                <h5>Comapany</h5>
                             </div>
-                            <div className="item">
-                                <img src={meter3} alt="Image" />
+                            {/* <div className="item">
+                                <img src={meter12} alt="Image" />
                                 <h5>CSS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter12} alt="Image" />
                                 <h5>JS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter9} alt="Image" />
+                                <img src={meter12} alt="Image" />
                                 <h5>Figma</h5>
                             </div>
                             <div className="item">
-                                <img src={meter4} alt="Image" />
+                                <img src={meter12} alt="Image" />
                                 <h5>Canva</h5>
-                            </div>
+                            </div> */}
                         </Carousel>
                     </div>
                 </div>

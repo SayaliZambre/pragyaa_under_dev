@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from '../assets/img/heroImage.png';
-// import navIcon1 from '../assets/img/linkdin.png';
-// import navIcon2 from '../assets/img/bat blade.jpg';
-// import navIcon3 from '../assets/img/bat car.jpg';
+import logo from '../assets/img/img/Pragyaa_batman.png';
+import navIcon1 from '../assets/img/linkdin.png';
+import navIcon2 from '../assets/img/bat blade.jpg';
+import navIcon3 from '../assets/img/bat car.jpg';
+import Card from './Card';
 import  Sociallinks from './Sociallinks';
 import { HashLink } from 'react-router-hash-link';
 
@@ -50,15 +51,27 @@ export const NavBar = () => {
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+              <Nav.Link as={HashLink} to="#Card" className={activeLink === 'Card' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Card')}>
+  Card
+</Nav.Link>              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
             </Nav>
             <span className="navbar-text">
               {/* <div className="social-icon">
                 <a href="#"><img src={navIcon1} alt="" /></a>
                 <a href="#"><img src={navIcon2} alt="" /></a>
                 <a href="#"><img src={navIcon3} alt="" /></a>
+                <a href="#"><img src={navIcon1} alt="" /></a>
+                <a href="#"><img src={navIcon2} alt="" /></a>
+                <a href="#"><img src={navIcon3} alt="" /></a>
+                <a href="#"><img src={navIcon1} alt="" /></a>
+                <a href="#"><img src={navIcon2} alt="" /></a>
+                <a href="#"><img src={navIcon3} alt="" /></a>
+                
               </div> */}
               <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
+                <button className="vvd"><span>REGISTER NOW</span></button>
               </HashLink>
             </span>
           </Navbar.Collapse>
