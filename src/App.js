@@ -11,7 +11,7 @@ import { Skills } from "./components/Skills";
 // import { Workshop } from "./components/Workshop";
 // import  Contact  from './components/Contact';
 
-import  Footer  from './components/Footer';
+// import  Footer  from './components/Footer';
 import Slider from './components/Slider';
 // ... rest of your code
 import { Projects } from './components/Project';
@@ -32,7 +32,7 @@ function App() {
        {/* <Workshop/> */}
        {/* <Faq/> */}
        {/* <GallerySection/> */}
-       <Footer/>
+       {/* <Footer/> */}
     </div>
   );
 }
